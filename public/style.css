@@ -1,0 +1,122 @@
+a {
+  text-decoration: none;
+}
+
+label {
+  display: block;
+}
+
+nav a {
+  display: inline-block;
+  margin: 1em;
+}
+
+form div {
+  margin: 1em;
+  display: inline-block;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  text-align: center;
+  background-color: #ecf0f1;
+}
+
+.Black {
+  background-color: black;
+  width: 20px;
+  height: 20px;
+}
+.Blue {
+  background-color: blue;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.Green {
+  background-color: green;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.Greenblue {
+  background-color: #5ac6c6;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.Blueblack {
+  background-color: #1d2951;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.App-header {
+  background-color: #34495e;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.subtitle {
+  margin: 0px 0px 20px 0px;
+  font-size: 16px;
+}
+.map-analytics-container {
+  background-color: #ecf0f1;
+  padding-top: 3em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.map {
+  width: 1000px;
+  height: 60vh;
+}
+
+@media only screen and (max-width: 980px) {
+  .map {
+    width: 90vw;
+  }
+}
+
+.analytics {
+  max-width: 30vw;
+}
+
+.selectorContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #ecf0f1;
+}
+
+.logo {
+  margin: 20px 0px 0px 0px;
+}
+
+.skull {
+  width: 17px;
+  padding: 0px 10px;
+  margin: 0px;
+}
+
+.statsHeading {
+  text-decoration: underline;
+}
